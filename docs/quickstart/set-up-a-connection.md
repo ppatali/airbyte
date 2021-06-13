@@ -33,6 +33,8 @@ jq -c '.data | {date: .date, EUR: .EUR }'
 
 And there you have it. You've pulled data from an API directly into a file and all of the actual configuration for this replication only took place in the UI.
 
+Note: If you are using Airbyte on Windows with WSL2 and Docker, refer to [this](../integrations/destinations/local-json#access-replicated-data-files) section to locate the replicated folder and file.
+ 
 ## That's it!
 
 This is just the beginning of using Airbyte. We support a large collection of sources and destinations. You can even contribute your own.
